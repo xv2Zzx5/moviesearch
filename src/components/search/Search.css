@@ -1,0 +1,30 @@
+
+.searchfilm{
+    padding:0;
+    display: flex;
+    margin: 25px auto;
+    border: none;
+    gap:29px;
+    
+}
+.searchInput{
+    flex-grow: 1;
+    height:46px;
+    border-radius: 10px;
+    background-image: url("./magnify.png") ;
+    background-repeat: no-repeat;
+    background-position: left+5px center;
+    padding:0 25px;
+    background-size: 14px;
+    font-size:16px;
+    
+    
+}
+.searchbutton{
+    width:93px;
+    height:46px;
+    background-color: #111155;
+    border-radius: 10px;
+    color:white;
+    font-size:16px;
+}

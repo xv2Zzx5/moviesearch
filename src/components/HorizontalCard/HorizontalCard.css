@@ -1,0 +1,37 @@
+.hc{
+    position: relative;
+    width:100%;
+    background-color: white;
+    border-radius:10px;
+    padding:15px;
+    display: flex;
+    gap:40px;
+}
+.hc__image{
+    width:300px;
+    height:444px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.hc__info{
+    font-size:16px;
+    letter-spacing: 0.27px;
+    margin-top: 10px;
+    color: #5a5a5a;
+    font-weight: 500;
+    margin-top: 6px;
+}
+.hc__title{
+    font-size:20px;
+    line-height:16px;
+    letter-spacing: 0.27px;
+    margin-top: 6px;
+    color: #121212;
+    font-weight: 800;
+}
+.hc__close{
+    background: none;
+    position: absolute;
+    top:5px;
+    right:5px;
+}
